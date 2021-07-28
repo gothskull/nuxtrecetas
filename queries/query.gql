@@ -1,0 +1,20 @@
+query {
+  categories {
+    id
+    name
+    img
+    icon
+    descripcion
+    slug
+  }
+
+  # query necesario cuando s hace la búsqueda por filto
+  # recipes {
+  #   id
+  #   name
+  #   category {
+  #     id
+  #     slug
+  #   }
+  # }
+}
